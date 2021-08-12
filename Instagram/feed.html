@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Instagram</title>
+</head>
+<body>
+
+  <!-- Section:Header -->
+  <section class="Header">
+    <div class="nav">
+      <div class="nav-logo">
+        <a href="feed.html"><img src="./Images/logo.png" width="110px" alt="logo.png"></a>
+      </div>
+      <div class="nav-search-bar">
+        <img src="./Images/search.png" alt="">
+        <input type="text" placeholder="Search" id="">
+      </div>
+      <div class="nav--icons">
+        <a href="feed.html"><img src="./Images/home.png" ></a>
+        <a href="#"><img src="./Images/messenger.png" alt=""></a>
+        <a href="explore.html"><img src="./Images/compass.png" alt=""></a>
+        <a href="#" id="explore" onClick="piChange()"><img  src="./Images/heart.png" ></a>
+        <a  class="profile" href="profile.html"><img src="./Images/p9.jpg" width="50px" height="50px" alt=""></a>
+      </div>
+
+    </div>
+  </section>
+  <!-- section :Header Ends -->
+
+  <!-- Section : feed -->
+  <main class="article" >
+    <!-- feeds -->
+    <div class="feed">
+    <!-- Stories Section -->
+      <div class="feed--status--box">
+        <div class="left-icon"><img class="img" src="./Images/next.png" alt=""></div>
+          <div class="feed--stories">
+            <div class="pic"><img class="img" src="./Images/p1.jpg" alt="">
+              <p>shraddhalogy_</p>
+            </div>
+            <div class="pic"><img class="img" src="./Images/skdp.jpg" alt="">
+              <p>shraddhaKapoor</p>
+            </div>
+            <div class="pic"><img class="img" src="./Images/p3.jpg" alt="">
+              <p>tusharcreates
+              </p>
+            </div>
+            <div class="pic"><img class="img" src="./Images/p4.jpg" alt="">
+              <p>dnx.arts</p>
+            </div>
+            <div class="pic"><img class="img" src="./Images/p5.jpg" alt="">
+              <p>._jon.doe</p>
+            </div>
+            <div class="pic"><img class="img" src="./Images/p6.jpg" alt="">
+              <p>art_zetsu</p>
+            </div>
+            <div class="pic"><img class="img" src="./Images/p7.jpg" alt="">
+              <p>iqbal.vsual</p>
+            </div>
+            <div class="pic"><img class="img" src="./Images/post8.jpg" alt="">
+              <p>logoshift</p>
+            </div>
+            <div class="pic"><img class="img" src="./Images/p9.jpg" alt="">
+              <p>._darksun</p>
+            </div>
+          </div>
+      </div>
+    <!-- Stories section ends -->
+
+    <!-- Feed Post -->
+    <section class="feed--post">
+      <div class="post--header">
+        <div class="post--user">
+          <a href="#"><img src="./Images/Naruto.png" alt=""></a>
+          <p class="user--name">Uzumaki_Hokage <br> <span>Konohagukare</span></p>
+        </div>
+        <div class="more"><a href="#"><img src="./Images/more.png" alt=""></a></div>
+      </div>
+      <div class="post--content">
+        <img src="./Images/NArushil3.png">
+      </div>
+      <div class="post--reactions">
+        <div class="likes">
+          <a href="#"><img src="./Images/heart.png" alt=""></a>
+          <a href="#"><img src="./Images/chat.png" alt=""></a>
+          <a href="#"><img src="./Images/send.png" alt=""></a>
+        </div>
+        <div class="save">
+          <a href="#"><img src="./Images/ribbon.png" alt=""></a>
+        </div>
+      </div>
+      <div class="post--captions">
+        <p class="likes-no">1,70,899 likes</p>
+        <p class="caption"><span class="bold">Uzumaki_Hokage </span><span>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Unde error saepe exercitationem labore illo officiis cupiditate totam eos beatae. Sunt!...</span><span
+            class="more"> more</span></p>
+        <p class="more info">View all 20,900 comments</p>
+      </div>
+      <div class="comments">
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">.sharingan_Uchiha </span><span>Ha Show Off U bRat....</span>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">_.NaruHinata</span><span> Oh my god!!!</Span> <span class="bold">
+                @Uzumaki_Hokage</span><span> Kun!</span>
+          </p>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <p><small class="time">5 MINUTES AGO</small></p>
+      </div>
+      <div class="footer">
+        <div class="comnt">
+          <p><a href="#"><img src="./Images/happy.png" alt=""></a></p>
+          <input type="text" name="" placeholder="Add a comment..." id="">
+        </div>
+        <p class="post">Post</p>
+      </div>
+    </section>
+    <section class="feed--post">
+      <div class="post--header">
+        <div class="post--user">
+          <a href="#"><img src="./Images/skdp.jpg" alt=""></a>
+          <p class="user--name">shraddhaKapoor <br> <span>Mumbai</span></p>
+        </div>
+        <div class="more"><a href="#"><img src="./Images/more.png" alt=""></a></div>
+      </div>
+      <div class="post--content">
+          <img src="./Images/skpost.jpg" alt="Unable to load content">
+      </div>
+      <div class="post--reactions">
+          <div class="likes">
+            <a href="#"><img src="./Images/heartred.png" alt=""></a>
+            <a href="#"><img src="./Images/chat.png" alt=""></a>
+            <a href="#"><img src="./Images/send.png" alt=""></a>
+          </div>
+          <div class="save">
+            <a href="#"><img src="./Images/ribbon.png" alt=""></a>
+          </div>
+      </div>
+      <div class="post--captions">
+          <p class="likes-no">2,456,770 likes</p>
+          <p class="caption"><span class="bold">shraddhaKapoor  </span><span>No matter If i don't show my overwhelming feelings, but I always love you to the fullest...</span><span class="more"> more</span></p>
+          <p class="more info">View all 3,400 comments</p>
+      </div>
+      <div class="comments">
+          <div class="cmnt1">
+            <p class="caption"><span class="bold">shraddhalogy_ </span><span>cutiepie...</span>
+            <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+          </div>
+          <div class="cmnt1">
+            <p class="caption"><span class="bold">ashique._2 </span><span>The elgance the grace that you posses <span class="bold"> @shraddhaKapoor</span> can't be expressed.I love you so much SK</span>
+            </p>
+            <p><a href="#"><img src="./Images/heartred.png" alt=""></a></p>
+          </div>
+          <p><small class="time">12 HOURS AGO</small></p>
+      </div>
+      <div class="footer">
+          <div class="comnt">
+            <p><a href="#"><img src="./Images/happy.png" alt=""></a></p>
+            <input type="text" name="" placeholder="Add a comment..." id="">
+          </div>
+          <p class="post">Post</p>
+      </div>
+    </section>
+    <section class="feed--post">
+      <div class="post--header">
+        <div class="post--user">
+          <a href="#"><img src="./Images/p1.jpg" alt=""></a>
+          <p class="user--name">jessica._doe <br> <span>Los Angeles</span></p>
+        </div>
+        <div class="more"><a href="#"><img src="./Images/more.png" alt=""></a></div>
+      </div>
+      <div class="post--content">
+        <img src="./Images/post1.jpg" alt="Unable to load content">
+      </div>
+      <div class="post--reactions">
+        <div class="likes">
+          <a href="#"><img src="./Images/heart.png" alt=""></a>
+          <a href="#"><img src="./Images/chat.png" alt=""></a>
+          <a href="#"><img src="./Images/send.png" alt=""></a>
+        </div>
+        <div class="save">
+          <a href="#"><img src="./Images/ribbon.png" alt=""></a>
+        </div>
+      </div>
+      <div class="post--captions">
+        <p class="likes-no">170 likes</p>
+        <p class="caption"><span class="bold">jessica._doe </span><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde error saepe exercitationem labore illo officiis cupiditate totam eos beatae. Sunt!...</span><span class="more"> more</span></p>
+        <p class="more info">View all 20 comments</p>
+      </div>
+      <div class="comments">
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">.raefel_9 </span><span>cute as couple</span>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">Aavasti_._ </span><span>Congratulations!!! <span
+                class="bold"> @jessica._doe</span> 
+          </p>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <p><small class="time">5 MINUTES AGO</small></p>
+      </div>
+      <div class="footer">
+        <div class="comnt">
+          <p><a href="#"><img src="./Images/happy.png" alt=""></a></p>
+          <input type="text" name="" placeholder="Add a comment..." id="">
+        </div>
+        <p class="post">Post</p>
+      </div>
+    </section>
+    <section class="feed--post">
+      <div class="post--header">
+        <div class="post--user">
+          <a href="#"><img src="./Images/itachi.jpg" alt=""></a>
+          <p class="user--name">Sharinggan_Uchiha <br> <span>Uchiha Hideout</span></p>
+        </div>
+        <div class="more"><a href="#"><img src="./Images/more.png" alt=""></a></div>
+      </div>
+      <div class="post--content">
+        <img src="./Images/sasukee.png" alt="Unable to load content">
+      </div>
+      <div class="post--reactions">
+        <div class="likes">
+          <a href="#"><img src="./Images/heart.png" alt=""></a>
+          <a href="#"><img src="./Images/chat.png" alt=""></a>
+          <a href="#"><img src="./Images/send.png" alt=""></a>
+        </div>
+        <div class="save">
+          <a href="#"><img src="./Images/ribbon.png" alt=""></a>
+        </div>
+      </div>
+      <div class="post--captions">
+        <p class="likes-no">170 likes</p>
+        <p class="caption"><span class="bold">Sharinggan_Uchiha </span><span>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Unde error saepe exercitationem labore illo officiis cupiditate totam eos beatae. Sunt!...</span><span
+            class="more"> more</span></p>
+        <p class="more info">View all 20 comments</p>
+      </div>
+      <div class="comments">
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">Uzumaki_Hokage </span><span>Hey Saske!!! Nice Pic.....</span>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">Sakura_._ </span><span> Ohh <span class="bold">
+                @Sharinggan_Uchiha</span><span> I love You</span>
+          </p>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <p><small class="time">5 MINUTES AGO</small></p>
+      </div>
+      <div class="footer">
+        <div class="comnt">
+          <p><a href="#"><img src="./Images/happy.png" alt=""></a></p>
+          <input type="text" name="" placeholder="Add a comment..." id="">
+        </div>
+        <p class="post">Post</p>
+      </div>
+    </section>
+    <section class="feed--post">
+      <div class="post--header">
+        <div class="post--user">
+          <a href="#"><img src="./Images/p5.jpg" alt=""></a>
+          <p class="user--name">Todi._78 <br> <span>Mizoram</span></p>
+        </div>
+        <div class="more"><a href="#"><img src="./Images/more.png" alt=""></a></div>
+      </div>
+      <div class="post--content">
+        <img src="./Images/post9.jpg" alt="Unable to load content">
+      </div>
+      <div class="post--reactions">
+        <div class="likes">
+          <a href="#"><img src="./Images/heart.png" alt=""></a>
+          <a href="#"><img src="./Images/chat.png" alt=""></a>
+          <a href="#"><img src="./Images/send.png" alt=""></a>
+        </div>
+        <div class="save">
+          <a href="#"><img src="./Images/ribbon.png" alt=""></a>
+        </div>
+      </div>
+      <div class="post--captions">
+        <p class="likes-no">170 likes</p>
+        <p class="caption"><span class="bold">Todi._78 </span><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde error saepe exercitationem labore illo officiis cupiditate totam eos beatae. Sunt!...</span><span class="more"> more</span></p>
+        <p class="more info">View all 20 comments</p>
+      </div>
+      <div class="comments">
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">.raefel_9 </span><span>cute as couple</span>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">Aavasti_._ </span><span>Congratulations!!! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <p><small class="time">5 MINUTES AGO</small></p>
+      </div>
+      <div class="footer">
+        <div class="comnt">
+          <p><a href="#"><img src="./Images/happy.png" alt=""></a></p>
+          <input type="text" name="" placeholder="Add a comment..." id="">
+        </div>
+        <p class="post">Post</p>
+      </div>
+    </section>
+    <section class="feed--post">
+      <div class="post--header">
+        <div class="post--user">
+          <a href="#"><img src="./Images/post4.jpg" alt=""></a>
+          <p class="user--name">ishtore_fashion <br> <span>ONline Fashion</span></p>
+        </div>
+        <div class="more"><a href="#"><img src="./Images/more.png" alt=""></a></div>
+      </div>
+      <div class="post--content">
+        <img src="./Images/banner 1.png" alt="Unable to load content">
+      </div>
+      <div class="post--reactions">
+        <div class="likes">
+          <a href="#"><img src="./Images/heart.png" alt=""></a>
+          <a href="#"><img src="./Images/chat.png" alt=""></a>
+          <a href="#"><img src="./Images/send.png" alt=""></a>
+        </div>
+        <div class="save">
+          <a href="#"><img src="./Images/ribbon.png" alt=""></a>
+        </div>
+      </div>
+      <div class="post--captions">
+        <p class="likes-no">170 likes</p>
+        <p class="caption"><span class="bold">Todi._78 </span><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Unde error saepe exercitationem labore illo officiis cupiditate totam eos beatae. Sunt!...</span><span
+            class="more"> more</span></p>
+        <p class="more info">View all 20 comments</p>
+      </div>
+      <div class="comments">
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">.raefel_9 </span><span>cute as couple</span>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">Aavasti_._ </span><span>Congratulations!!! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit.
+          </p>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <p><small class="time">5 MINUTES AGO</small></p>
+      </div>
+      <div class="footer">
+        <div class="comnt">
+          <p><a href="#"><img src="./Images/happy.png" alt=""></a></p>
+          <input type="text" name="" placeholder="Add a comment..." id="">
+        </div>
+        <p class="post">Post</p>
+      </div>
+    </section>
+    <section class="feed--post">
+      <div class="post--header">
+        <div class="post--user">
+          <a href="#"><img src="./Images/p3.jpg" alt=""></a>
+          <p class="user--name">blaze_phoenix. <br> <span>Game Zone</span></p>
+        </div>
+        <div class="more"><a href="#"><img src="./Images/more.png" alt=""></a></div>
+      </div>
+      <div class="post--content">
+        <img src="./Images/game.jpg" alt="Unable to load content">
+      </div>
+      <div class="post--reactions">
+        <div class="likes">
+          <a href="#"><img src="./Images/heart.png" alt=""></a>
+          <a href="#"><img src="./Images/chat.png" alt=""></a>
+          <a href="#"><img src="./Images/send.png" alt=""></a>
+        </div>
+        <div class="save">
+          <a href="#"><img src="./Images/ribbon.png" alt=""></a>
+        </div>
+      </div>
+      <div class="post--captions">
+        <p class="likes-no">1,789 likes</p>
+        <p class="caption"><span class="bold">blaze_phoenix. </span><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Unde error saepe exercitationem labore illo officiis cupiditate totam eos beatae. Sunt!...</span><span
+            class="more"> more</span></p>
+        <p class="more info">View all 210 comments</p>
+      </div>
+      <div class="comments">
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">.raefel_9 </span><span>cute as couple</span>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">Aavasti_._ </span><span>Congratulations!!! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit.
+          </p>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <p><small class="time">5 MINUTES AGO</small></p>
+      </div>
+      <div class="footer">
+        <div class="comnt">
+          <p><a href="#"><img src="./Images/happy.png" alt=""></a></p>
+          <input type="text" name="" placeholder="Add a comment..." id="">
+        </div>
+        <p class="post">Post</p>
+      </div>
+    </section>
+    <section class="feed--post">
+      <div class="post--header">
+        <div class="post--user">
+          <a href="#"><img src="./Images/p10.jpg" alt=""></a>
+          <p class="user--name">applecider>__ <br> <span>India</span></p>
+        </div>
+        <div class="more"><a href="#"><img src="./Images/more.png" alt=""></a></div>
+      </div>
+      <div class="post--content">
+        <img src="./Images/post11.jpg" alt="Unable to load content">
+      </div>
+      <div class="post--reactions">
+        <div class="likes">
+          <a href="#"><img src="./Images/heart.png" alt=""></a>
+          <a href="#"><img src="./Images/chat.png" alt=""></a>
+          <a href="#"><img src="./Images/send.png" alt=""></a>
+        </div>
+        <div class="save">
+          <a href="#"><img src="./Images/ribbon.png" alt=""></a>
+        </div>
+      </div>
+      <div class="post--captions">
+        <p class="likes-no">1,789 likes</p>
+        <p class="caption"><span class="bold">applecider>__ </span><span>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.
+            Unde error saepe exercitationem labore illo officiis cupiditate totam eos beatae. Sunt!...</span><span
+            class="more"> more</span></p>
+        <p class="more info">View all 210 comments</p>
+      </div>
+      <div class="comments">
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">.raefel_9 </span><span>cute as couple</span>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">Aavasti_._ </span><span>Congratulations!!! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit.
+          </p>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <p><small class="time">5 MINUTES AGO</small></p>
+      </div>
+      <div class="footer">
+        <div class="comnt">
+          <p><a href="#"><img src="./Images/happy.png" alt=""></a></p>
+          <input type="text" name="" placeholder="Add a comment..." id="">
+        </div>
+        <p class="post">Post</p>
+      </div>
+    </section>
+    <section class="feed--post">
+      <div class="post--header">
+        <div class="post--user">
+          <a href="#"><img src="./Images/p4.jpg" alt=""></a>
+          <p class="user--name">bogus3245._ <br> <span>New York</span></p>
+        </div>
+        <div class="more"><a href="#"><img src="./Images/more.png" alt=""></a></div>
+      </div>
+      <div class="post--content">
+        <img src="./Images/post3.jpg" alt="Unable to load content">
+      </div>
+      <div class="post--reactions">
+        <div class="likes">
+          <a href="#"><img src="./Images/heart.png" alt=""></a>
+          <a href="#"><img src="./Images/chat.png" alt=""></a>
+          <a href="#"><img src="./Images/send.png" alt=""></a>
+        </div>
+        <div class="save">
+          <a href="#"><img src="./Images/ribbon.png" alt=""></a>
+        </div>
+      </div>
+      <div class="post--captions">
+        <p class="likes-no">1,789 likes</p>
+        <p class="caption"><span class="bold">bogus3245._ </span><span>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.
+            Unde error saepe exercitationem labore illo officiis cupiditate totam eos beatae. Sunt!...</span><span
+            class="more"> more</span></p>
+        <p class="more info">View all 210 comments</p>
+      </div>
+      <div class="comments">
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">.raefel_9 </span><span>cute as couple</span>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">Aavasti_._ </span><span>Congratulations!!! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit.
+          </p>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <p><small class="time">5 MINUTES AGO</small></p>
+      </div>
+      <div class="footer">
+        <div class="comnt">
+          <p><a href="#"><img src="./Images/happy.png" alt=""></a></p>
+          <input type="text" name="" placeholder="Add a comment..." id="">
+        </div>
+        <p class="post">Post</p>
+      </div>
+    </section>
+    <section class="feed--post">
+      <div class="post--header">
+        <div class="post--user">
+          <a href="#"><img src="./Images/p2.jpg" alt=""></a>
+          <p class="user--name">John.doe._ <br> <span>USA</span></p>
+        </div>
+        <div class="more"><a href="#"><img src="./Images/more.png" alt=""></a></div>
+      </div>
+      <div class="post--content">
+        <img src="./Images/post2.jpg" alt="Unable to load content">
+      </div>
+      <div class="post--reactions">
+        <div class="likes">
+          <a href="#"><img src="./Images/heart.png" alt=""></a>
+          <a href="#"><img src="./Images/chat.png" alt=""></a>
+          <a href="#"><img src="./Images/send.png" alt=""></a>
+        </div>
+        <div class="save">
+          <a href="#"><img src="./Images/ribbon.png" alt=""></a>
+        </div>
+      </div>
+      <div class="post--captions">
+        <p class="likes-no">1,789 likes</p>
+        <p class="caption"><span class="bold">John.doe._ </span><span>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.
+            Unde error saepe exercitationem labore illo officiis cupiditate totam eos beatae. Sunt!...</span><span
+            class="more"> more</span></p>
+        <p class="more info">View all 210 comments</p>
+      </div>
+      <div class="comments">
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">.raefel_9 </span><span>cute as couple</span>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">Aavasti_._ </span><span>Congratulations!!! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit.
+          </p>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <p><small class="time">5 MINUTES AGO</small></p>
+      </div>
+      <div class="footer">
+        <div class="comnt">
+          <p><a href="#"><img src="./Images/happy.png" alt=""></a></p>
+          <input type="text" name="" placeholder="Add a comment..." id="">
+        </div>
+        <p class="post">Post</p>
+      </div>
+    </section>
+    <section class="feed--post">
+      <div class="post--header">
+        <div class="post--user">
+          <a href="#"><img src="./Images/p10.jpg" alt=""></a>
+          <p class="user--name">John.doe._ <br> <span>USA</span></p>
+        </div>
+        <div class="more"><a href="#"><img src="./Images/more.png" alt=""></a></div>
+      </div>
+      <div class="post--content">
+        <img src="./Images/post5.jpg" alt="Unable to load content">
+      </div>
+      <div class="post--reactions">
+        <div class="likes">
+          <a href="#"><img src="./Images/heart.png" alt=""></a>
+          <a href="#"><img src="./Images/chat.png" alt=""></a>
+          <a href="#"><img src="./Images/send.png" alt=""></a>
+        </div>
+        <div class="save">
+          <a href="#"><img src="./Images/ribbon.png" alt=""></a>
+        </div>
+      </div>
+      <div class="post--captions">
+        <p class="likes-no">1,789 likes</p>
+        <p class="caption"><span class="bold">John.doe._ </span><span>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.
+            Unde error saepe exercitationem labore illo officiis cupiditate totam eos beatae. Sunt!...</span><span
+            class="more"> more</span></p>
+        <p class="more info">View all 210 comments</p>
+      </div>
+      <div class="comments">
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">.raefel_9 </span><span>cute as couple</span>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <div class="cmnt1">
+          <p class="caption"><span class="bold">Aavasti_._ </span><span>Congratulations!!! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit.
+          </p>
+          <p><a href="#"><img src="./Images/heart.png" alt=""></a></p>
+        </div>
+        <p><small class="time">5 MINUTES AGO</small></p>
+      </div>
+      <div class="footer">
+        <div class="comnt">
+          <p><a href="#"><img src="./Images/happy.png" alt=""></a></p>
+          <input type="text" name="" placeholder="Add a comment..." id="">
+        </div>
+        <p class="post">Post</p>
+      </div>
+    </section>
+      
+    </div>
+    <!-- end of feeds -->
+
+    <!-- profile--info -->
+    <div class="pro">
+      <div class="profile--dashbord">
+        <div class="profile--header">
+          <div class="pic--text">
+            <div><img src="./images/p9.jpg" width="50px" height="50px" class="profile"></div>
+            <div class="profile--details">
+              <p class="bold">alishylishy</p>
+              <p class="light">Ayehsa Singh</p>
+            </div>
+          </div>
+          <div class="switch bold"><p>Switch</p></div>
+        </div>
+        <div class="suggestions">
+          <p class="bold">Suggestions For You</p>
+          <p class="light">See All</p>
+        </div>
+        <div class="people">
+          <div class="acc">
+            <div class="user--details">
+              <img src="./Images/post7.jpg" width="38px" height="38px" alt="">
+              <div class="txt">
+                <p class="bold">citikeeper</p>
+                <p class="light">Followed by Kuro_raijin</p>
+              </div>
+            </div>
+            <p class="bold switch">Follow</p>
+          </div>
+          <div class="acc">
+            <div class="user--details">
+              <img src="./Images/post8.jpg" width="38px" height="38px" alt="">
+              <div class="txt">
+                <p class="bold">nobita_.</p>
+                <p class="light">New to Instagram</p>
+              </div>
+            </div>
+            <p class="bold switch">Follow</p>
+          </div>
+          <div class="acc">
+            <div class="user--details">
+              <img class="active" src="./Images/post9.jpg" width="38px" height="38px" alt="">
+              <div class="txt">
+                <p class="bold">bumble_.bee</p>
+                <p class="light">Followed by jon_.doe + 3more</p>
+              </div>
+            </div>
+            <p class="bold switch">Follow</p>
+          </div>
+          <div class="acc">
+            <div class="user--details">
+              <img src="./Images/post10.jpg" width="38px" height="38px" alt="">
+              <div class="txt">
+                <p class="bold">Desi._Boy</p>
+                <p class="light">Follows You</p>
+              </div>
+            </div>
+            <p class="bold switch">Follow</p>
+          </div>
+          <div class="acc">
+            <div class="user--details">
+              <img src="./Images/post12.jpg" width="38px" height="38px" alt="">
+              <div class="txt">
+                <p class="bold">greeny._green</p>
+                <p class="light">New to Instagram</p>
+              </div>
+            </div>
+            <p class="bold switch">Follow</p>
+          </div>
+          <p class="light small">
+            <span>About </span><span class="dots">.</span><span>Help </span><span class="dots"> . </span><span>Press </span><span class="dots">.</span><span>API</span><span class="dots">.</span><span>Jobs </span>
+            <span class="dots">.</span><span>Top Accounts </span><span class="dots">.</span><span>Terms </span><span>.</span><span>Privacy </span><span class="dots">.</span><span>Hashtags </span><span class="dots">.</span><span>Languages </span>
+          </p>
+          <p class="small light copy">&copy2021 COPYRIGHT OWNED BY SWAYANSU</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Dropdown Explore -->
+  <div class="dropdown--heart">
+    <p class="bold date">Today</p>
+    <div class="notice">
+      <div class="img--text">
+        <a href="#"><img src="./Images/p5.jpg" width="58px" height="58px" alt=""></a>
+        <p><span class="bold">Todi_.9 </span><span class="light">liked your post.</span><span class="light time"> 21h</span></p>
+      </div>
+      <div class="pic">
+        <a href="#"><img src="./images/post3.jpg" width="50px" height="50px" alt=""></a>
+      </div>
+    </div>
+    <p class="bold date">This Week</p>
+    
+    <div class="notice not">
+      <div class="img--text">
+        <a href="#"><img src="./Images/p1.jpg" width="58px" height="58px" alt=""></a>
+        <p><span class="bold">cassey_.9 </span><span class="light">liked your post.</span><span class="light time">
+            2d</span>
+        </p>
+      </div>
+      <div class="pic">
+        <a href="#"><img src="./images/post9.jpg" width="50px" height="50px" alt=""></a>
+      </div>
+    </div>
+    
+    <div class="notice not">
+      <div class="img--text">
+        <a href="#"><img src="./Images/p7.jpg" width="58px" height="58px" alt=""></a>
+        <p><span class="bold">ashleyy_.19 </span><span class="light">started following you.</span><span class="light time">
+            1h</span>
+        </p>
+      </div>
+      <div class="pic">
+        <button class="btn bold">Follow</button>
+      </div>
+    </div>
+    <div class="notice not">
+      <div class="img--text">
+        <a href="#"><img src="./Images/p7.jpg" width="58px" height="58px" alt=""></a>
+        <p><span class="bold">ashleyy_.19 </span><span class="light">started following you.</span><span class="light time">
+            1h</span>
+        </p>
+      </div>
+      <div class="pic">
+        <button class="btn bold">Follow</button>
+      </div>
+    </div>
+    <div class="notice not">
+      <div class="img--text">
+        <a href="#"><img src="./Images/p5.jpg" width="58px" height="58px" alt=""></a>
+        <p><span class="bold">Todi_.9 </span><span class="light">liked your post.</span><span class="light time"> 21h</span>
+        </p>
+      </div>
+      <div class="pic">
+        <a href="#"><img src="./images/post3.jpg" width="50px" height="50px" alt=""></a>
+      </div>
+    </div>
+    <div class="notice not">
+      <div class="img--text">
+        <a href="#"><img src="./Images/p5.jpg" width="58px" height="58px" alt=""></a>
+        <p><span class="bold">Todi_.9 </span><span class="light">liked your post.</span><span class="light time"> 21h</span>
+        </p>
+      </div>
+      <div class="pic">
+        <a href="#"><img src="./images/post11.jpg" width="50px" height="50px" alt=""></a>
+      </div>
+    </div>
+    <div class="notice not">
+      <div class="img--text">
+        <a href="#"><img src="./Images/p5.jpg" width="58px" height="58px" alt=""></a>
+        <p><span class="bold">Todi_.9 </span><span class="light">liked your post.</span><span class="light time"> 21h</span>
+        </p>
+      </div>
+      <div class="pic">
+        <a href="#"><img src="./images/post7.jpg" width="50px" height="50px" alt=""></a>
+      </div>
+    </div>
+    <div class="notice not">
+      <div class="img--text">
+        <a href="#"><img src="./Images/p5.jpg" width="58px" height="58px" alt=""></a>
+        <p><span class="bold">Todi_.9 </span><span class="light">liked your post.</span><span class="light time"> 21h</span>
+        </p>
+      </div>
+      <div class="pic">
+        <a href="#"><img src="./images/post4.jpg" width="50px" height="50px" alt=""></a>
+      </div>
+    </div>
+  </div> 
+
+  <script>
+    const navSlide = () => {
+      const showw = document.getElementById('explore');
+      const slider = document.querySelector('.dropdown--heart');
+      showw.addEventListener('click', () => {
+        // Toggle nav
+        slider.classList.toggle('showDrop');
+
+      });
+    }
+    navSlide();
+  </script>
+</body>
+</html>
